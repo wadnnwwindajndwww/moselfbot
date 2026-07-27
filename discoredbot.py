@@ -30,43 +30,43 @@ reaction_cooldown = {}
 # MAXIMUM COVERAGE word list for blacktea game - 99%+ of all 3-letter substrings
 COMMON_WORDS = [
     # ===== NGS (rings, kings, things, songs, wrongs, strings, beginnings, endings) =====
-    'rings', 'kings', 'things', 'wings', 'songs', 'longs', 'wrongs', 'strings', 'springs', 'brings', 'swings', 'stings', 'clings', 'flings', 'slings', 'pings', 'dings', 'sings', 'tings', 'zings', 'bing', 'ding', 'king', 'ping', 'ring', 'sing', 'ting', 'wing', 'zing', 'fangs', 'gangs', 'hangs', 'pangs', 'bangs', 'clangs', 'slangs', 'twangs', 'wangs', 'yangs', 'dongs', 'gongs', 'pongs', 'tongs', 'wrongs', 'songs', 'longs', 'bongs', 'prongs', 'thongs', 'lungs', 'rungs', 'bungs', 'dungs', 'hungs', 'jungs', 'sungs', 'wrings', 'brings', 'stings', 'things', 'beings', 'doings', 'goings', 'rulings', 'winnings', 'spinnings', 'grinnings', 'beginnings', 'endings', 'sendings', 'bendings', 'lendings', 'mendings', 'pendings', 'tendings', 'vendings', 'blending', 'spending', 'rending', 'tending', 'lending', 'bending', 'mending', 'fending', 'vending', 'pending', 'settings', 'meetings', 'greetings', 'beatings', 'heatings', 'seatings', 'wettings', 'pettings', 'bettings', 'lettings', 'jettings', 'settings', 'nettings', 'shettings', 'wettings',
+    'rings', 'kings', 'things', 'wings', 'songs', 'longs', 'wrongs', 'strings', 'springs', 'brings', 'swings', 'stings', 'clings', 'flings', 'slings', 'pings', 'dings', 'sings', 'tings', 'zings', [...]
 
     # ===== MPS (jumps, pumps, lumps, camps, temps, symptoms, attempts) =====
-    'jumps', 'pumps', 'lumps', 'bumps', 'humps', 'rumps', 'stumps', 'thumps', 'clumps', 'grumps', 'plumps', 'frumps', 'slumps', 'trumps', 'camps', 'damps', 'lamps', 'ramps', 'stamps', 'clamps', 'tramps', 'cramps', 'champs', 'scamps', 'vamps', 'tamps', 'samps', 'amps', 'temps', 'tempts', 'exempts', 'attempts', 'prompts', 'contempts', 'symptoms', 'examples', 'temples', 'samples', 'amples', 'simples', 'dimples', 'pimples', 'rumples', 'crumples', 'trumpets', 'strumpets', 'campaigns', 'tampings', 'dumplings', 'crumpets', 'jumped', 'pumped', 'lumped', 'bumped', 'humped', 'rumped', 'stumped', 'thumped', 'clumped', 'grumped', 'plumped', 'slumped', 'trumped',
+    'jumps', 'pumps', 'lumps', 'bumps', 'humps', 'rumps', 'stumps', 'thumps', 'clumps', 'grumps', 'plumps', 'frumps', 'slumps', 'trumps', 'camps', 'damps', 'lamps', 'ramps', 'stamps', 'clamps', 't[...]
 
     # ===== RTS (parts, starts, hearts, arts, sports, courts, shorts, ports) =====
-    'parts', 'starts', 'hearts', 'arts', 'sorts', 'sports', 'courts', 'shorts', 'snorts', 'ports', 'forts', 'carts', 'darts', 'farts', 'tarts', 'warts', 'charts', 'smarts', 'departs', 'imparts', 'upstart', 'stalwarts', 'coats', 'boats', 'floats', 'goats', 'moats', 'gloats', 'notes', 'votes', 'quotes', 'dotes', 'motes', 'totes', 'cotes', 'rotes', 'wrote', 'smoke', 'stroke', 'spoke', 'broke', 'choke', 'evoke', 'invoke', 'provoke', 'revoke', 'stoke', 'poke', 'yoke', 'woke', 'joke', 'coke', 'choked', 'stoked', 'poked', 'yoked', 'joked', 'coked', 'evoked', 'invoked', 'provoked', 'revoked', 'stroked', 'smoked', 'croaked', 'bloated', 'devoted', 'demoted', 'promoted', 'denoted', 'devoted', 'emoted',
+    'parts', 'starts', 'hearts', 'arts', 'sorts', 'sports', 'courts', 'shorts', 'snorts', 'ports', 'forts', 'carts', 'darts', 'farts', 'tarts', 'warts', 'charts', 'smarts', 'departs', 'imparts', '[...]
 
     # ===== IES (babies, ladies, stories, worries, berries, carries, fairies, duties) =====
-    'babies', 'ladies', 'copies', 'stories', 'worries', 'hurries', 'berries', 'cherries', 'fairies', 'varies', 'carries', 'marries', 'tarries', 'parties', 'calories', 'studies', 'duties', 'varieties', 'commodities', 'anxieties', 'utilities', 'securities', 'properties', 'societies', 'activities', 'entities', 'identities', 'capacities', 'tenacities', 'audacities', 'fallacies', 'legacies', 'prophecies', 'policies', 'species', 'gracies', 'tracies', 'aries', 'galleries', 'tallies', 'calories', 'rallies', 'allies', 'dallies', 'scallies', 'bullies', 'gullies', 'skies', 'ties', 'lies', 'dies', 'pies', 'tries', 'cries', 'dries', 'fries', 'spies', 'dyes', 'eyes', 'ryes', 'byes', 'guys', 'buys', 'denies', 'supplies', 'replies', 'applies', 'implies', 'complies', 'defies', 'relies', 'jellies', 'bellies', 'wellies', 'tellies', 'smellies',
+    'babies', 'ladies', 'copies', 'stories', 'worries', 'hurries', 'berries', 'cherries', 'fairies', 'varies', 'carries', 'marries', 'tarries', 'parties', 'calories', 'studies', 'duties', 'varieti[...]
 
     # ===== NTS (wants, grants, plants, ants, events, moments, contents) =====
-    'wants', 'grants', 'plants', 'ants', 'pants', 'chants', 'slants', 'stunts', 'blunts', 'counts', 'mounts', 'amounts', 'fronts', 'vents', 'dents', 'rents', 'tents', 'bents', 'scents', 'events', 'prevents', 'intents', 'contents', 'segments', 'moments', 'documents', 'elements', 'supplements', 'implements', 'sentiments', 'statements', 'payments', 'treatments', 'developments', 'assignments', 'departments', 'apartments', 'agreements', 'tournaments', 'governments', 'movements', 'improvements', 'adjustments', 'instruments', 'monuments', 'comments', 'cement', 'lament', 'torment', 'ferment', 'augment', 'fragment', 'pigment', 'segment', 'figment', 'regiment', 'sediment', 'increment', 'condiment', 'judgment', 'adjustment', 'recruitment', 'indictment', 'enticement', 'allotment', 'abutment',
+    'wants', 'grants', 'plants', 'ants', 'pants', 'chants', 'slants', 'stunts', 'blunts', 'counts', 'mounts', 'amounts', 'fronts', 'vents', 'dents', 'rents', 'tents', 'bents', 'scents', 'events', [...]
 
     # ===== NDS (hands, lands, bands, sounds, pounds, minds, finds, friends) =====
-    'hands', 'lands', 'bands', 'sands', 'stands', 'brands', 'strands', 'grands', 'commands', 'demands', 'understands', 'wands', 'bonds', 'fonds', 'ponds', 'sounds', 'pounds', 'wounds', 'rounds', 'grounds', 'mounds', 'bounds', 'hounds', 'founds', 'clouds', 'crowds', 'shrouds', 'vendors', 'benders', 'fenders', 'renders', 'tenders', 'slenders', 'blenders', 'genders', 'sends', 'bends', 'fends', 'mends', 'rends', 'trends', 'spends', 'friends', 'pretends', 'extends', 'intends', 'defends', 'offends', 'suspends', 'appends', 'depends', 'upends', 'transcends', 'descends', 'ascends', 'minds', 'finds', 'kinds', 'winds', 'binds', 'hinds', 'blinds', 'grinds', 'reminds', 'upwinds', 'rewinds', 'unwinds',
+    'hands', 'lands', 'bands', 'sands', 'stands', 'brands', 'strands', 'grands', 'commands', 'demands', 'understands', 'wands', 'bonds', 'fonds', 'ponds', 'sounds', 'pounds', 'wounds', 'rounds', '[...]
 
     # ===== RST (first, worst, burst, thirst, forest, breast, coast, fast) =====
-    'first', 'worst', 'burst', 'thirst', 'cursed', 'nursed', 'pursed', 'dispersed', 'forest', 'breast', 'feast', 'beast', 'yeast', 'east', 'coast', 'roast', 'toast', 'boast', 'blast', 'fast', 'last', 'past', 'cast', 'vast', 'mast', 'haste', 'paste', 'taste', 'waste', 'chaste', 'baste', 'outcast', 'forecast', 'broadcast', 'steadfast', 'breakfast', 'typecast', 'northeast', 'southeast', 'southwest', 'northwest', 'clustered', 'mustered', 'blustered', 'flustered', 'blistered', 'glistered', 'mastered', 'plastered', 'fasted', 'lasted', 'pasted', 'tasted', 'wasted', 'coasted', 'roasted', 'toasted', 'boasted', 'blasted', 'misted', 'listed', 'grist', 'wrist', 'tryst', 'curst', 'durst',
+    'first', 'worst', 'burst', 'thirst', 'cursed', 'nursed', 'pursed', 'dispersed', 'forest', 'breast', 'feast', 'beast', 'yeast', 'east', 'coast', 'roast', 'toast', 'boast', 'blast', 'fast', 'las[...]
 
     # ===== ONG (long, song, strong, wrong, along, belong, throng, oblong) =====
-    'long', 'song', 'strong', 'wrong', 'dong', 'gong', 'kong', 'pong', 'tong', 'along', 'among', 'belong', 'prolong', 'throng', 'oblong', 'sarong', 'lifelong', 'headlong', 'daylong', 'alllong', 'evlong', 'furlong', 'prolonged', 'wronged', 'longing', 'songing', 'thronging', 'wronging', 'songbird', 'longbow', 'strongbox', 'alongside',
+    'long', 'song', 'strong', 'wrong', 'dong', 'gong', 'kong', 'pong', 'tong', 'along', 'among', 'belong', 'prolong', 'throng', 'oblong', 'sarong', 'lifelong', 'headlong', 'daylong', 'alllong', 'e[...]
 
     # ===== ALI (quality, reality, alien, alive, align, alliance, allow) =====
-    'quality', 'reality', 'mortality', 'polarity', 'clarity', 'charity', 'scarlet', 'palette', 'mallet', 'ballet', 'wallet', 'pallet', 'bullet', 'mullet', 'cullet', 'gullet', 'alien', 'alienate', 'align', 'alignment', 'alike', 'alive', 'all', 'alley', 'alliance', 'allied', 'allocate', 'allot', 'allow', 'alloy', 'allude', 'allure', 'ally', 'allure', 'alleviate', 'allocation', 'allowance', 'allowable', 'alibi', 'alibis', 'alimentary', 'aliquot', 'alimony', 'alpine', 'already', 'altar', 'alter', 'alternate', 'altitude', 'altogether', 'altruism', 'alliances', 'alarms', 'alias',
+    'quality', 'reality', 'mortality', 'polarity', 'clarity', 'charity', 'scarlet', 'palette', 'mallet', 'ballet', 'wallet', 'pallet', 'bullet', 'mullet', 'cullet', 'gullet', 'alien', 'alienate', [...]
 
     # ===== ERS (players, makers, fighters, teachers, watchers, factors, masters) =====
-    'players', 'makers', 'fighters', 'miners', 'speakers', 'teachers', 'preaches', 'breaches', 'teaches', 'reaches', 'beaches', 'peaches', 'leaches', 'watchers', 'catchers', 'pitchers', 'batchers', 'hatchers', 'matches', 'watches', 'patches', 'latches', 'shatters', 'chatters', 'clatters', 'flatters', 'platters', 'splatters', 'scatters', 'tatters', 'matters', 'batters', 'patters', 'ratters', 'factors', 'tractors', 'detractors', 'extractors', 'contractors', 'protractors', 'vendors', 'splendors', 'commanders', 'blenders', 'renders', 'tenders', 'slenders', 'fenders', 'genders', 'masters', 'plasters', 'disasters', 'blisters', 'glisters', 'misters', 'sisters', 'listers', 'whiskers', 'clusters', 'musters', 'busters', 'dusters', 'gusters', 'lusters', 'flusters', 'roosters', 'boosters', 'posters', 'coasters', 'headers', 'readers', 'leaders', 'beaders', 'traders', 'waders', 'faders', 'graders', 'shaders', 'raiders',
+    'players', 'makers', 'fighters', 'miners', 'speakers', 'teachers', 'preaches', 'breaches', 'teaches', 'reaches', 'beaches', 'peaches', 'leaches', 'watchers', 'catchers', 'pitchers', 'batchers'[...]
 
     # ===== EXC (except, exception, excel, excuse, execute, excite, exclude) =====
-    'except', 'exception', 'excess', 'exchange', 'excite', 'excitement', 'excel', 'excellent', 'exclaim', 'exclude', 'exclusive', 'excuse', 'execute', 'execution', 'executive', 'exemplify', 'exempt', 'exert', 'exhale', 'exhaust', 'exhibit', 'exhort', 'exigency', 'exile', 'exist', 'exit', 'exorcise', 'expand', 'expanse', 'expat', 'expect', 'expectancy', 'expectation', 'expediency', 'expedient', 'expedite', 'expel', 'expend', 'expendable', 'expenditure', 'expense', 'expensive', 'experience', 'experiment', 'expert', 'expertise', 'expiate', 'expiration', 'expire', 'explain', 'expletive', 'explicable', 'explicit', 'explicate', 'explode', 'exploit', 'exploration', 'explore', 'exponent', 'export', 'exposition', 'expostulate', 'exposure', 'expound', 'express', 'expression', 'expressive', 'expropriate', 'expunge', 'expurgate', 'excused', 'excuser', 'excursion', 'excited', 'exceeds', 'excels',
+    'except', 'exception', 'excess', 'exchange', 'excite', 'excitement', 'excel', 'excellent', 'exclaim', 'exclude', 'exclusive', 'excuse', 'execute', 'execution', 'executive', 'exemplify', 'exemp[...]
 
     # ===== ENT (went, rent, event, prevent, content, moment, element) =====
-    'went', 'rent', 'dent', 'bent', 'sent', 'tent', 'event', 'prevent', 'content', 'intent', 'extent', 'consent', 'dissent', 'present', 'represent', 'resent', 'absent', 'accent', 'ascent', 'descent', 'cement', 'lament', 'ferment', 'torment', 'segment', 'augment', 'fragment', 'pigment', 'figment', 'regiment', 'sediment', 'increment', 'condiment', 'implement', 'supplement', 'complement', 'monument', 'document', 'moment', 'element', 'settlement', 'development', 'apartment', 'department', 'government', 'agreement', 'entertainment', 'statement', 'payment', 'treatment', 'pent', 'vent', 'slent', 'spent', 'blent', 'scent', 'relent', 'repent', 'lement', 'rement', 'entment', 'indent', 'indent', 'rodent', 'potent', 'latent', 'patent', 'urgent', 'portent', 'serpent', 'torrent', 'current', 'parent', 'regent', 'agent', 'gent',
+    'went', 'rent', 'dent', 'bent', 'sent', 'tent', 'event', 'prevent', 'content', 'intent', 'extent', 'consent', 'dissent', 'present', 'represent', 'resent', 'absent', 'accent', 'ascent', 'descen[...]
 
     # ===== EAD (dead, read, head, bread, thread, spread, steady, already) =====
-    'dead', 'read', 'head', 'bread', 'thread', 'spread', 'dread', 'tread', 'instead', 'bead', 'lead', 'mead', 'stead', 'steady', 'already', 'shred', 'threadbare', 'unstead', 'misled', 'mislead', 'unread', 'reread', 'widespread', 'wellbread', 'homestead', 'farmstead', 'waisted', 'beaded', 'headed', 'leaded', 'pleaded', 'breaded', 'treaded', 'dreaded', 'threaded', 'beading', 'heading', 'leading', 'pleading', 'spreading', 'steadiness', 'steadily', 'headache', 'headband', 'headset', 'headstone', 'headstrong', 'headwater', 'headway', 'deaden', 'deadening', 'deadline', 'deadlock', 'deadpan', 'readied', 'reader', 'readily', 'readiness', 'reading', 'heading', 'leadhead', 'bedhead', 'deadhead', 'redhead', 'ahead', 'instead', 'ahead',
+    'dead', 'read', 'head', 'bread', 'thread', 'spread', 'dread', 'tread', 'instead', 'bead', 'lead', 'mead', 'stead', 'steady', 'already', 'shred', 'threadbare', 'unstead', 'misled', 'mislead', '[...]
 
     # ===== CORE 3-LETTER WORDS =====
     'cat', 'dog', 'rat', 'bat', 'hat', 'mat', 'sat', 'pat', 'eat', 'tea', 'sea', 'pea', 'red', 'bed', 'led', 'fed',
@@ -79,37 +79,37 @@ COMMON_WORDS = [
     'saw', 'paw', 'jaw', 'awe', 'owl', 'awl', 'owe', 'own', 'two', 'too', 'zoo', 'goo', 'boo', 'coo', 'for', 'nor',
     'her', 'per', 'bar', 'car', 'far', 'jar', 'tar', 'war', 'oar', 'par', 'our', 'fur', 'day', 'say', 'way', 'pay',
     'lay', 'may', 'hay', 'bay', 'gay', 'ray', 'key', 'boy', 'toy', 'joy', 'soy', 'try', 'cry', 'dry', 'fry', 'pry',
-    'sky', 'spy', 'fly', 'guy', 'buy', 'shy', 'icy', 'ivy', 'any', 'vex', 'hex', 'sex', 'nex', 'yep', 'wax', 'tax', 'fax', 'sax', 'pax', 'lax', 'max', 'zap', 'rap', 'map', 'nap', 'cap', 'gap', 'lap', 'tap', 'yap', 'sap', 'dap',
+    'sky', 'spy', 'fly', 'guy', 'buy', 'shy', 'icy', 'ivy', 'any', 'vex', 'hex', 'sex', 'nex', 'yep', 'wax', 'tax', 'fax', 'sax', 'pax', 'lax', 'max', 'zap', 'rap', 'map', 'nap', 'cap', 'gap', 'la[...]
 
     # ===== ALL -ING WORDS =====
-    'sing', 'ring', 'wing', 'king', 'ping', 'ding', 'ting', 'zing', 'bing', 'jing', 'ling', 'ming', 'ning', 'ving', 'bring', 'cling', 'fling', 'sling', 'sting', 'string', 'swing', 'thing', 'wring', 'spring', 'during', 'caring', 'daring', 'faring', 'glaring', 'sharing', 'staring', 'earing', 'tearing', 'bearing', 'hearing', 'nearing', 'searing', 'wearing', 'clearing', 'smearing', 'appearing', 'disappearing', 'cheering', 'steering', 'jeering', 'peering', 'sneering', 'veering', 'leering', 'boring', 'coring', 'poring', 'storing', 'soaring', 'roaring', 'mooring', 'touring', 'pouring', 'flooring', 'ignoring', 'restoring', 'exploring', 'adoring', 'scoring', 'snoring', 'curing', 'luring', 'enduring', 'assuring', 'ensuring', 'procuring', 'securing', 'alluring', 'blaring', 'snaring', 'sparing', 'scaring', 'staring', 'flaring', 'warning', 'morning', 'scorning', 'adorning', 'burning', 'turning', 'spurning', 'churning', 'learning', 'earning', 'yearning', 'returning', 'discerning', 'concerning', 'bowing', 'cowing', 'mowing', 'sowing', 'towing', 'vowing', 'showing', 'snowing', 'flowing', 'glowing', 'growing', 'knowing', 'throwing', 'allowing', 'following', 'swallowing', 'hallowing', 'gallowing', 'tallowing', 'falling', 'calling', 'balling', 'walling', 'stalling', 'installing', 'telling', 'selling', 'dwelling', 'swelling', 'spelling', 'smelling', 'yelling', 'bellowing', 'mellowing', 'yellowing', 'hollowing', 'following', 'wallowing', 'galloping', 'helping', 'yelping',
+    'sing', 'ring', 'wing', 'king', 'ping', 'ding', 'ting', 'zing', 'bing', 'jing', 'ling', 'ming', 'ning', 'ving', 'bring', 'cling', 'fling', 'sling', 'sting', 'string', 'swing', 'thing', 'wring'[...]
 
     # ===== ALL -TION/-SION WORDS =====
-    'action', 'faction', 'traction', 'fraction', 'reaction', 'creation', 'vacation', 'location', 'notation', 'rotation', 'citation', 'dictation', 'nation', 'station', 'ration', 'potion', 'lotion', 'motion', 'ocean', 'function', 'junction', 'unction', 'suction', 'auction', 'caution', 'section', 'fiction', 'diction', 'friction', 'caption', 'option', 'portion', 'question', 'mission', 'passion', 'session', 'profession', 'confession', 'possession', 'obsession', 'expression', 'impression', 'depression', 'oppression', 'suppression', 'compression', 'repression', 'transgression', 'succession', 'transmission', 'remission', 'admission', 'permission', 'submission', 'emission', 'omission', 'commission', 'fission', 'tension', 'pension', 'dimension', 'extension', 'suspension', 'apprehension', 'comprehension', 'ascension', 'descension', 'dissension', 'intention', 'attention', 'retention', 'detention', 'prevention', 'intervention', 'invention', 'convention', 'contention', 'abstention', 'discussion', 'percussion', 'concussion', 'recursion', 'excursion', 'incursion', 'dispersion', 'immersion', 'submersion', 'aversion', 'diversion', 'inversion', 'conversion', 'reversion', 'decision', 'division', 'collision', 'illusion', 'delusion', 'inclusion', 'exclusion', 'conclusion', 'seclusion', 'occlusion', 'intrusion', 'extrusion', 'profusion', 'confusion', 'diffusion', 'infusion', 'transfusion', 'vision', 'revision', 'provision', 'supervision', 'television', 'envision', 'prevision', 'incision', 'precision', 'excision', 'fashion', 'cushion', 'mansion', 'expansion', 'dedication', 'medication', 'education', 'excavation', 'privation', 'motivation', 'preparation', 'reparation', 'separation', 'operation', 'cooperation', 'evaporation', 'exploration', 'exploitation', 'application', 'implication', 'complication', 'explanation', 'duplication', 'publication', 'replication', 'simplification', 'amplification', 'clarification', 'classification', 'notification', 'ratification', 'gratification', 'justification', 'modification', 'codification', 'specification', 'qualification', 'quantification', 'sanctification', 'electrification', 'authentication', 'stratification', 'satisfaction', 'dissatisfaction', 'beautification', 'identification', 'certification', 'verification', 'calcification', 'petrification', 'mystification', 'mortification', 'fortification', 'purification', 'unification', 'reunification', 'diversification', 'intensification', 'densification', 'personification', 'falsification', 'ossification', 'gasification',
+    'action', 'faction', 'traction', 'fraction', 'reaction', 'creation', 'vacation', 'location', 'notation', 'rotation', 'citation', 'dictation', 'nation', 'station', 'ration', 'potion', 'lotion',[...]
 
     # ===== ADDITIONAL LONG-TAIL WORDS =====
-    'light', 'night', 'right', 'sight', 'tight', 'fight', 'might', 'flight', 'plight', 'slight', 'height', 'weight', 'eight', 'high', 'sigh', 'nigh', 'thigh', 'bight', 'wight', 'fright', 'bright', 'knight', 'delight', 'insight', 'upright', 'alight', 'outright', 'tonight', 'twilight', 'lightning', 'tighten', 'lighten', 'frighten', 'enlighten', 'rightly', 'tightly', 'sightly', 'nightly', 'mighty', 'lightly', 'slightly', 'highway', 'highness', 'highlight', 'lightheaded', 'lightweight', 'highly', 'alright', 'frightened', 'enlightened', 'playwright', 'underweight', 'middleweight', 'heavyweight', 'lightweight',
+    'light', 'night', 'right', 'sight', 'tight', 'fight', 'might', 'flight', 'plight', 'slight', 'height', 'weight', 'eight', 'high', 'sigh', 'nigh', 'thigh', 'bight', 'wight', 'fright', 'bright',[...]
 
-    'tough', 'rough', 'cough', 'dough', 'though', 'through', 'bough', 'thorough', 'borough', 'trough', 'plough', 'enough', 'ought', 'bought', 'brought', 'caught', 'fought', 'sought', 'taught', 'thought', 'wrought', 'naught', 'nought', 'oughta', 'slough',
+    'tough', 'rough', 'cough', 'dough', 'though', 'through', 'bough', 'thorough', 'borough', 'trough', 'plough', 'enough', 'ought', 'bought', 'brought', 'caught', 'fought', 'sought', 'taught', 'th[...]
 
     'would', 'could', 'should', 'mould', 'wouldnt', 'couldnt', 'shouldnt',
 
-    'able', 'cable', 'fable', 'gable', 'label', 'sable', 'table', 'stable', 'capable', 'enable', 'disable', 'reliable', 'variable', 'edible', 'visible', 'divisible', 'terrible', 'horrible', 'incredible', 'credible', 'audible', 'sensible', 'defensible', 'responsible', 'impossible', 'possible', 'flexible', 'taxable', 'battle', 'cattle', 'bottle', 'little', 'settle', 'kettle', 'mettle', 'nettle', 'rattle', 'tattle', 'prattle', 'brittle', 'whittle', 'spittle', 'shuttle', 'scuttle', 'title', 'subtle', 'turtle', 'hurtle', 'tousle', 'jostle', 'castle', 'wrestle', 'beetle', 'attle', 'ettle', 'ittle', 'oodle', 'poodle', 'doodle', 'noodle', 'strudel', 'fiddle', 'middle', 'riddle', 'paddle', 'saddle', 'caddle', 'waddle', 'peddle', 'meddle', 'toddle', 'coddle', 'dawdle', 'cuddle', 'muddle', 'puddle', 'bundle', 'kindle', 'spindle', 'swindle', 'dwindle', 'toodle', 'poodle', 'candle', 'handle', 'sandal', 'scandal', 'vandal',
+    'able', 'cable', 'fable', 'gable', 'label', 'sable', 'table', 'stable', 'capable', 'enable', 'disable', 'reliable', 'variable', 'edible', 'visible', 'divisible', 'terrible', 'horrible', 'incre[...]
 
-    'annual', 'manual', 'casual', 'ritual', 'actual', 'usual', 'virtual', 'sensual', 'textual', 'factual', 'sexual', 'mutual', 'gradual', 'individual', 'spiritual', 'dual', 'equal', 'legal', 'regal', 'naval', 'pedal', 'medal', 'modal', 'nodal', 'tidal', 'bridal', 'nidal', 'venal', 'penal', 'renal', 'banal', 'canal', 'final', 'spinal', 'fetal', 'petal', 'metal', 'total', 'vital', 'mortal', 'portal', 'brutal', 'feudal', 'caudal', 'vandal', 'scandal', 'sandal', 'medal', 'pedal', 'tidal', 'bridal', 'nodal', 'modal', 'tonal', 'zonal', 'tidal',
+    'annual', 'manual', 'casual', 'ritual', 'actual', 'usual', 'virtual', 'sensual', 'textual', 'factual', 'sexual', 'mutual', 'gradual', 'individual', 'spiritual', 'dual', 'equal', 'legal', 'rega[...]
 
-    'easy', 'easel', 'ease', 'please', 'grease', 'tease', 'lease', 'cease', 'increase', 'disease', 'release', 'decrease', 'crease', 'beast', 'feast', 'least', 'yeast', 'east', 'coast', 'roast', 'toast', 'boast', 'blast', 'fast', 'last', 'past', 'cast', 'vast', 'mast', 'haste', 'paste', 'taste', 'waste', 'chaste', 'baste', 'aster', 'faster', 'master', 'plaster', 'disaster', 'contrast', 'breakfast', 'forecast', 'overcast', 'broadcast', 'steadfast', 'outcast', 'typecast', 'northeast', 'southeast', 'southwest', 'northwest', 'eastward', 'easterly',
+    'easy', 'easel', 'ease', 'please', 'grease', 'tease', 'lease', 'cease', 'increase', 'disease', 'release', 'decrease', 'crease', 'beast', 'feast', 'least', 'yeast', 'east', 'coast', 'roast', '[...]
 
-    'unique', 'unit', 'unite', 'unity', 'unicorn', 'uniform', 'universe', 'university', 'universal', 'unions', 'unison', 'uniquely', 'unify', 'unified', 'unitive', 'united', 'units', 'untie', 'until', 'unlock', 'unfold', 'undo', 'unfit', 'unable', 'uncouth', 'undone', 'unhappy', 'uniforms', 'unitary', 'untidy', 'unwise', 'unlike', 'unless', 'unlike', 'unlawful', 'uncommon', 'unwell', 'unsafe',
+    'unique', 'unit', 'unite', 'unity', 'unicorn', 'uniform', 'universe', 'university', 'universal', 'unions', 'unison', 'uniquely', 'unify', 'unified', 'unitive', 'united', 'units', 'untie', 'un[...]
 
-    'scary', 'hairy', 'diary', 'fairy', 'weary', 'dreary', 'canary', 'binary', 'library', 'primary', 'summary', 'contrary', 'military', 'ordinary', 'secretary', 'boundary', 'necessary', 'temporary', 'stationary', 'elementary', 'legendary', 'vocabulary', 'vary', 'mary', 'gary', 'carry', 'harry', 'marry', 'tarry', 'worry', 'hurry', 'curry', 'supply', 'reply', 'apply', 'dairy', 'fairy', 'hairy', 'scary', 'unwary', 'wary', 'vary', 'query', 'weary',
+    'scary', 'hairy', 'diary', 'fairy', 'weary', 'dreary', 'canary', 'binary', 'library', 'primary', 'summary', 'contrary', 'military', 'ordinary', 'secretary', 'boundary', 'necessary', 'temporar[...]
 ]
 
 # Store response messages for deletion
 command_responses = {}
 
 # Commands that should NOT have their messages auto-deleted
-PERSISTENT_COMMANDS = {'help', 'commands', 'cmds', 'pfp', 'whois', 'copy', 'jvc'}
+PERSISTENT_COMMANDS = {'help', 'commands', 'cmds', 'pfp', 'whois', 'copy', 'jvc', 'disconnect'}
 
 
 @bot.event
@@ -149,7 +149,7 @@ def get_help_text():
 
 🧹 CLEANUP COMMANDS
   -purge <amount> [user]    Delete recent messages
-                            (optional: specify user to delete their messages)
+                             (optional: specify user to delete their messages)
 
 👤 PROFILE COMMANDS
   -pfp [user]               Get a user's profile picture
@@ -158,6 +158,7 @@ def get_help_text():
 
 🎤 VOICE COMMANDS
   -jvc <channel_id>         Join a voice channel by ID
+  -disconnect               Leave the current voice channel
 
 📨 MASS DM COMMANDS
   -massdm <message>                    DM 10-15 random server members
@@ -840,6 +841,30 @@ async def join_voice_channel(ctx, channel_id: str = None):
         msg = await ctx.send(f"couldnt join vc: {str(e)[:100]}")
         store_response(ctx, msg, persistent=True)
         print(f"[JVC DEBUG] Unexpected error: {e}")
+
+
+@bot.command(name='disconnect')
+async def disconnect_voice(ctx):
+    """Disconnect from the current voice channel. Usage: -disconnect"""
+    try:
+        # Get the bot's current voice client
+        if ctx.guild and ctx.guild.voice_client:
+            voice_client = ctx.guild.voice_client
+            await voice_client.disconnect()
+            
+            msg = await ctx.send("✅ disconnected from voice channel")
+            store_response(ctx, msg, persistent=True)
+            
+            print(f"[DISCONNECT DEBUG] Successfully disconnected from voice channel")
+        else:
+            msg = await ctx.send("not in a voice channel rn")
+            store_response(ctx, msg, persistent=True)
+            print(f"[DISCONNECT DEBUG] Not connected to any voice channel")
+    
+    except Exception as e:
+        msg = await ctx.send(f"error disconnecting: {str(e)[:100]}")
+        store_response(ctx, msg, persistent=True)
+        print(f"[DISCONNECT DEBUG] Error disconnecting: {e}")
 
 
 @bot.command()
